@@ -1,0 +1,513 @@
+.menu-button-wrapper {
+  z-index: 101;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.about_hero_sticky {
+  z-index: 2;
+  background-image: none;
+  background-size: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: sticky;
+  top: 0;
+  overflow: unset;
+}
+
+.content__title {
+  z-index: 3;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0vw;
+  text-transform: uppercase;
+  width: 73vw;
+  font-family: Antonio, sans-serif;
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 105%;
+  position: relative;
+}
+
+.about_hero_section-1.about {
+  z-index: 5;
+  width: auto;
+  height: 100vh;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+}
+
+.heading-1 {
+  color: #000000;
+  text-align: left;
+  letter-spacing: 0vw;
+  text-transform: uppercase;
+  font-family: Antonio, sans-serif;
+  font-size: 7.5vw;
+  font-weight: 500;
+  line-height: 105%;
+  width: 55vw;
+}
+
+.ourspecilities {
+  color: #00AACD;
+  text-align: left;
+  letter-spacing: 0vw;
+  text-transform: uppercase;
+  font-family: Antonio, sans-serif;
+  font-size: 7.8vw;
+  font-weight: 700;
+  line-height: 105%;
+  width: 100%;
+}
+
+.marquee-main-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 2%;
+  /* z-index: 99; */
+}
+
+.brand_core {
+  background-color: #EEF5FF;
+  flex-flow: column;
+  justify-content: space-around;
+  width: auto;
+  height: 100vh;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  display: flex;
+}
+
+.vawe-line-2.off {
+  width: 100%;
+  display: block;
+  opacity: 0;
+}
+
+.wave_lane_wrapper.balck {
+  background-color: #EEF5FF;
+  margin-top: -2px;
+}
+
+.brand_core_cards {
+  display: flex;
+  gap: 2vw;
+}
+
+
+
+.brand_core_card {
+  position: relative;
+  border-radius: 2vw;
+  background-color: unset;
+  outline: .4vw solid #EEF5FF;
+  width: 30vw;
+  height: 19vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: visible;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.brand_core_card-img {
+  position: absolute;
+  top: -4vw;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  width: 8vw;
+  height: auto;
+}
+
+.brand_core_card-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.brand_core_card._1 {
+  background-image: url('../images/Rustremover.webp');
+  z-index: 8;
+  flex: none;
+  margin-left: 0;
+  position: absolute;
+  inset: 4vw 0% 0% 12vw;
+  transform: rotate(-7deg);
+  align-items: baseline;
+}
+
+.brand_core_card._2 {
+  background-image: url('../images/Paintremover.webp');
+  z-index: 9;
+  flex: none;
+  position: relative;
+  bottom: 1vw;
+  transform: rotate(7deg);
+  align-items: baseline;
+}
+
+.brand_core_card._3 {
+  background-image: url('../images/Rustprotection.webp');
+  z-index: 10;
+  flex: none;
+  margin-right: 0;
+  position: absolute;
+  top: 4vw;
+  right: 12vw;
+  transform: rotate(1deg);
+  text-align: left;
+  align-items: baseline;
+}
+
+
+.text-block-13 {
+  color: #FFFFFF;
+  font-family: Proxima Nova, sans-serif;
+  font-size: 1.5vw;
+  line-height: 115%;
+  text-align: left;
+}
+
+.text-block-14 {
+  color: #FFFFFF;
+  letter-spacing: 0vw;
+  text-transform: uppercase;
+  width: 15vw;
+  font-family: Antonio, sans-serif;
+  font-size: 2vw;
+  font-weight: 600;
+  line-height: 100%;
+  position: static;
+}
+
+
+.div-block-76 {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2vw;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4vw;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2vw;
+}
+
+.paragraph-3 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 45%;
+  color: #2A2A2A;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.paragraph-3 li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  font-size: 1.2vw;
+  line-height: 1.5;
+}
+
+.paragraph-3 li img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+}
+
+
+body {
+  border: unset !important;
+  background-color: #EEF5FF;
+}
+
+@media screen and (max-width: 991px) {
+  .feature-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .paragraph-3 {
+    width: 90%;
+    font-size: 2.5vw;
+  }
+
+  .paragraph-3 li {
+    font-size: 2.5vw;
+    line-height: 1.8;
+    gap: 0.6rem;
+  }
+
+  .paragraph-3 li img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.3rem;
+  }
+}
+
+
+.nutrition-wrapper {
+  background-color: #EEF5FF;
+}
+
+.marquee-main-wrapper::before {
+  background: #EEF5FF;
+  background-image:
+    linear-gradient(to bottom,
+      #EEF5FF 0%,
+      #EEF5FF 50%,
+      #00aacd 50%,
+      #00aacd 100%);
+}
+
+.paragraph {
+  color: #383838;
+  width: 50vw;
+  margin: auto;
+}
+
+
+#w-node-e9190f35-d13b-dd12-1f71-4b35c6242bd6-b42cb671 {
+  align-items: flex-end;
+}
+
+.brand_core_heading {
+  text-align: center;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading-1.white {
+  z-index: 2;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.vanila-section-divheading._22 {
+  background-color: unset;
+}
+
+.social-buttons_wrapper img {
+  filter: brightness(0) saturate(100%);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 991px) {
+  .brand_core_cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 4vw;
+    padding-bottom: 4vw;
+  }
+
+  .brand_core_card {
+    width: 80vw;
+    height: auto;
+    padding: 5vw;
+    transform: none !important;
+    position: relative !important;
+    inset: auto !important;
+    top: auto !important;
+    right: auto !important;
+    left: auto !important;
+    bottom: auto !important;
+    text-align: center;
+  }
+
+  .text-block-14 {
+    font-size: 4vw;
+    width: auto;
+  }
+
+  .text-block-13 {
+    font-size: 3vw;
+  }
+
+  .heading-1,
+  .ourspecilities {
+    font-size: 10vw;
+    text-align: center;
+    width: auto;
+  }
+
+  .content__title {
+    font-size: 5vw;
+    width: 90vw;
+  }
+
+
+  .footer {
+    margin-top: 80vw;
+  }
+
+  .brand_core_heading {
+    width: 90vw;
+  }
+
+  .image-12 {
+    width: 80vw;
+  }
+
+  .nutrition-section-headings {
+    justify-content: center;
+    align-self: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    position: static;
+  }
+
+  .brand_core_card._1,
+  .brand_core_card._2,
+  .brand_core_card._3 {
+    width: 90vw;
+    height: 40vh;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .transition-logo-img {
+    z-index: 2;
+    width: 15vw;
+    position: relative;
+  }
+
+  .heading-1.e2d4bc._2.bg._22 {
+    font-size: 110px;
+    margin-top: 2vw;
+  }
+
+  .paragraph.margin_down-1vw {
+    font-size: 2.5vw;
+    width: 80vw;
+  }
+
+  .paragraph {
+    font-size: 2.5vw;
+    width: 80vw;
+  }
+
+  .heading-1.center {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+}
+
+/* Small devices (phones, 480px and down) */
+@media screen and (max-width: 480px) {
+  .brand_core_card {
+    width: 90vw;
+    padding: 6vw;
+  }
+
+  .text-block-14 {
+    font-size: 5vw;
+  }
+
+  .text-block-13 {
+    font-size: 4vw;
+  }
+
+  .heading-1,
+  .ourspecilities {
+    font-size: 11vw;
+  }
+
+  .content__title {
+    font-size: 6vw;
+  }
+
+  .paragraph {
+    width: 90vw;
+    font-size: 3vw;
+  }
+}
+
+
+@media screen and (max-width: 479px) {
+  .heading-1.e2d4bc._2.bg._22 {
+    font-size: 8vw !important;
+    margin-top: 2vw;
+  }
+
+  .heading-1.e2d4bc._2.students,
+  .heading-1.e2d4bc._2.brown,
+  .heading-1.white,
+  .heading-1.white.center.dairy,
+  .heading-1.section-4,
+  .heading-1.section-4._3 {
+    font-size: 8vw !important;
+    font-weight: 600;
+  }
+
+  .paragraph.margin_down-1vw {
+    margin-top: 16px;
+    font-size: 3vw;
+  }
+
+  .brand_core_card._1,
+  .brand_core_card._2,
+  .brand_core_card._3 {
+    width: 90vw;
+    height: auto;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .heading-1.center {
+    font-size: 11vw !important;
+    width: auto;
+  }
+
+  .brand_core_cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 4vw;
+    padding-bottom: 4vw;
+  }
+
+  .marquee-wrapper {
+    margin-top: 40%;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .nutrition-section-headings {
+    margin-top: 8vw;
+    position: static;
+  }
+}
